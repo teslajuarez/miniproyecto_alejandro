@@ -13,9 +13,9 @@
   <body>
      <body>
        <div class="container>
-            <h1>Agragar Registro<h1>
+            <h1>Agragar Registro</h1>
               <div class="row">
-                 <div class="clo-sm-12">
+                 <div class="col-sm-12">
                     <form action="">
                       <label for"nombre">nombre</label>
                       <input type="text" id="nombre" name="nombre" class="form-control" required>
@@ -29,7 +29,7 @@
                      <div> 
                     <div>
                   <div>                                                
-    <h1>Hello, world!</h1>
+    <h1></h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
