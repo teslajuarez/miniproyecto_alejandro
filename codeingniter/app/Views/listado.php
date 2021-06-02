@@ -25,9 +25,25 @@
                       <button class="btn btn-primary form-control">Guardar</button>
                                                                   
                       </form> 
-                     <div> 
-                    <div>
-                  <div>                                                
+                     </div> 
+                    </div>
+                     <div class="row">
+                       <div class="col-sm-12">
+                         <div class="table table-resomsive">
+                           <div class="table table-hover table-bordered">
+                             <tr>
+                               <th>nombre</th>
+                               <th>apellido paterno</th>
+                               <th>apellido materno</th>
+                               <th>editar</th>
+                               <th>eliminar</th>
+                             </tr>
+                             
+                             </table>
+                         </div>
+                       </div>
+                      </div>  
+                  </div>                                                
     <h1></h1>
 
     <!-- Optional JavaScript -->
