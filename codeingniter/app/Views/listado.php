@@ -10,9 +10,8 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
      <body>
-       <div class="container>
+       <div class="container">
             <h1>Agragar Registro</h1>
               <div class="row">
                  <div class="col-sm-12">
