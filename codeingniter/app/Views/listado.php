@@ -30,7 +30,7 @@
                      <div class="row">
                        <div class="col-sm-12">
                          <div class="table table-resomsive">
-                           <div class="table table-hover table-bordered">
+                           <table class="table table-hover table-bordered">
                              <tr>
                                <th>nombre</th>
                                <th>apellido paterno</th>
