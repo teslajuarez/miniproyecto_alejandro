@@ -38,6 +38,15 @@
                                <th>editar</th>
                                <th>eliminar</th>
                              </tr>
+                             <?php foreach($datos in $dato): ?>
+                              <tr>
+                                <th><?php echo $dato->nombre ?></th>
+                                <th><?php echo $dato->apellido_paterno ?></th>
+                                <th><?php echo $dato->apellido_materno ?></th>
+                                <th> <a href</th>
+                                <th></th>
+                              </tr>
+                             <?php endforeach ?>
                              
                              </table>
                          </div>
