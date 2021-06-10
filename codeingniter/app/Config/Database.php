@@ -35,7 +35,7 @@ class Database extends Config
 		'hostname' => 'localhost',
 		'username' => 'goldem64',
 		'password' => '123456AZ',
-		'database' => '',
+		'database' => 'miniproyecto',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
 		'pConnect' => false,
