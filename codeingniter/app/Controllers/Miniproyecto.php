@@ -6,7 +6,7 @@ class General extends BaseController{
 
 	public function index(){
 	
-		$gModel = new GeneralModel();
+		$gModel = new DatosModel();
 		$mensaje = session('mensaje´);
 		$datos = $gModel->listarTodo
 		$data =[
@@ -18,7 +18,7 @@ class General extends BaseController{
 	}
 	
 	public function obtenerDatos($id){
-	    $gModel =  new GeneralModel();
+	    $gModel =  new DatosModell();
 	    $data = ["id" => $id];
 	    $respuesta = $gModel->obtenerInformacion($data);
 	    
@@ -26,7 +26,7 @@ class General extends BaseController{
 	    return view('actualizar' ,$datos);
 }
 public function insertar(){
-  $gModel  = new GeneralModel();
+  $gModel  = new DatosModel();
   $data =[
        "nombre" => $_POST['nombre'],
         "a_paterno" => $_POST['apaterno'],
@@ -45,7 +45,7 @@ public function insertar(){
     
     public function actualizar(){
      
-      $gModel = new GeneralModel();
+      $gModel = new DatosModel();
       $data = [
              "nombre" => $_POST['nombre'],
         "a_paterno" => $_POST['apaterno'],
@@ -64,7 +64,7 @@ public function insertar(){
       }
       
       public function eliminar($idPersonal){
-      $gModel = new GeneralModel();
+      $gModel = new DatosModel();
       $id =["id" => $idpersona];
       $respuesta = $gModel->eliminar($id);
       
