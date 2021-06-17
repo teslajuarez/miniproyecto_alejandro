@@ -7,7 +7,7 @@ class General extends BaseController{
 	public function index(){
 	
 		$gModel = new DatosModel();
-		$mensaje = session('mensaje´);
+		$mensaje = session('mensaje');
 		$datos = $gModel->listarTodo
 		$data =[
 			"datos" => $datos
