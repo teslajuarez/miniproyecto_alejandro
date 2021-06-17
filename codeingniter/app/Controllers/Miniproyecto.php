@@ -67,6 +67,17 @@ public function insertar(){
       $gModel = new GeneralModel();
       $id =["id" => $idpersona];
       $respuesta = $gModel->eliminar($id);
+      
+      if($respuesta){
+       return redirec()->to(base_url('/index.php'))->with('mensaje','2');
+         }else{
+      return redirec()->to(base_url('/index.php'))->with('mensaje','3');
+      }
+      
+     }
+      
+  }
+      
     
 ?>
 
