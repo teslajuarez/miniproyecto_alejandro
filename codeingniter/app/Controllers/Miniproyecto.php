@@ -35,9 +35,9 @@ public function insertar(){
       $respuesta = $gModel->insertar($data);
       
       if ($respuesta > 0){
-      return redirec()->to(base_url('/index.php'))->with('mensaje','0');
+      return redirect()->to(base_url('/index.php'))->with('mensaje','0');
          }else{
-      return redirec()->to(base_url('/index.php'))->with('mensaje','1');
+      return redirect()->to(base_url('/index.php'))->with('mensaje','1');
       }
     }
     
@@ -57,21 +57,21 @@ public function insertar(){
     
     
     if ($respuesta){
-    return redirec()->to(base_url('/index.php'))->with('mensaje','2');
+    return redirect()->to(base_url('/index.php'))->with('mensaje','2');
          }else{
-      return redirec()->to(base_url('/index.php'))->with('mensaje','3');
+    return redirect()->to(base_url('/index.php'))->with('mensaje','3');
       }
       }
       
-      public function eliminar($idPersonal){
+      public function eliminar($idPersona){
       $gModel = new DatosModel();
       $id =["id" => $idpersona];
       $respuesta = $gModel->eliminar($id);
       
       if($respuesta){
-       return redirec()->to(base_url('/index.php'))->with('mensaje','2');
+       return redirect()->to(base_url('/index.php'))->with('mensaje','2');
          }else{
-      return redirec()->to(base_url('/index.php'))->with('mensaje','3');
+      return redirect()->to(base_url('/index.php'))->with('mensaje','3');
       }
       
      }
