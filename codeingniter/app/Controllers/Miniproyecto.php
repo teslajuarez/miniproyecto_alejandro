@@ -8,9 +8,9 @@ class General extends BaseController{
 	
 		$gModel = new DatosModel();
 		$mensaje = session('mensaje');
-		$datos = $gModel->listarTodo
+		$datos = $gModel->listarTodo();
 		$data =[
-			"datos" => $datos
+			"datos" => $datos,
 			"mensaje" => $mensaje
 		];
 			
