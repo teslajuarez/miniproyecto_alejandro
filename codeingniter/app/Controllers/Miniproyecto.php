@@ -18,7 +18,7 @@ class Miniproyecto extends BaseController{
 	}
 	
 	public function obtenerDatos($id){
-	    $gModel =  new DatosModell();
+	    $gModel =  new DatosModel();
 	    $data = ["id" => $id];
 	    $respuesta = $gModel->obtenerInformacion($data);
 	    
