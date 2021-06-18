@@ -65,7 +65,7 @@ public function insertar(){
       
       public function eliminar($idPersona){
       $gModel = new DatosModel();
-      $id =["id" => $idpersona];
+      $id =["id" => $idPersona];
       $respuesta = $gModel->eliminar($id);
       
       if($respuesta){
