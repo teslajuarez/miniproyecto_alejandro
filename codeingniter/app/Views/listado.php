@@ -43,8 +43,8 @@
                                 <th><?php echo $dato->nombre ?></th>
                                 <th><?php echo $dato->apellido_paterno ?></th>
                                 <th><?php echo $dato->apellido_materno ?></th>
-                                <th> <a href="<?php base_url('/index.php/editar') ?>" class="btn btn-sm btn-warning">Editar</a></th>
-                                <th> <a href="<?php base_url('/index.php/eliminar') ?>" class="btn btn-sm btn-darger">Eliminar</a></th>
+                                <th> <a href="<?php echo base_url('/index.php/obtenerInformacion').'/'.$dato->id ?>" class="btn btn-sm btn-warning">Editar</a></th>
+                                <th> <a href="<?php echo base_url('/index.php/eliminar').'/'.$dato->id ?>" class="btn btn-sm btn-darger">Eliminar</a></th>
                               </tr>
                              <?php endforeach ?>
                              
