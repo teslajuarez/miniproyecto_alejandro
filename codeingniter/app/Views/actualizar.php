@@ -23,7 +23,7 @@ $amaterno = $datos[0]['apellido_materno'];
        <h1>Actualizar registro</h1>          
          <div  class="row">   
            <div  class="col-sm-12">
-             <from method="POST" action="<?php echo base_url('/index.php/actualizar')?>">
+             <form method="POST" action="<?php echo base_url('/index.php/actualizar')?>">
                <input type="hidden" name="id" id="id" value="<?php echo  $id ?>">
                <label for="nombre">Nombre:</label>
                <input type="text" class="from-control" name="nombre" id="nombre" value="<?php echo $nombre ?>" required>
