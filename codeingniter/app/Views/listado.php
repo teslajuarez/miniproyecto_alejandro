@@ -15,7 +15,7 @@
             <h1>Agragar Registro</h1>
               <div class="row">
                  <div class="col-sm-12">
-                    <form action="">
+                    <form action="<?php echo base_url('/index.php/crear')?>" method="POST">
                       <label for"nombre">nombre</label>
                       <input type="text" id="nombre" name="nombre" class="form-control" required>
                       <label for="paterno">Apellido Paterno:</label>
