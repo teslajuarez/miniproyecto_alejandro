@@ -11,7 +11,7 @@ class DatosModel extends Model {
 }
   
    public function listarTodo(){
-     $gModel = $this->db->query("SELECT = FROM persona");
+     $gModel = $this->db->query("SELECT * FROM persona");
      return $gModel-> getResult();
 }
   
