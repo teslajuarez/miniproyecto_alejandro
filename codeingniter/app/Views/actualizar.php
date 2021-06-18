@@ -2,8 +2,8 @@
 <?php
 $id = $datos[0]['id'];
 $nombre = $datos[0]['nombre'];
-$apaterno = [0]['apellido_paterno'];
-$amaterno = [0]['apellido_materno'];
+$apaterno = $datos[0]['apellido_paterno'];
+$amaterno = $datos[0]['apellido_materno'];
 
 ?>
 
