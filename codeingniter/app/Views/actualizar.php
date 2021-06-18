@@ -38,9 +38,9 @@ $amaterno = $datos[0]['apellido_materno'];
                <label for="nombre">Nombre:</label>
                <input type="text" class="from-control" name="nombre" id="nombre" value="<?php echo $nombre ?>" required>
                <label for="apaterno">Apellido paterno:</label>
-               <input type="text" name="apaterno" id="apaterno" class="form-control" value"<?php echo $apaterno ?>" required>
+               <input type="text" name="apaterno" id="apaterno" class="form-control" value="<?php echo $apaterno ?>" required>
                <label for="apaterno">Apellido materno:</label>
-               <input type="text" name="amaterno" id="amaterno" class="form-control" value"<?php echo $amaterno ?>" required>
+               <input type="text" name="amaterno" id="amaterno" class="form-control" value="<?php echo $amaterno ?>" required>
                <button class="btn  btn-waring from-control">Editar</button>
              </from>
            </div>
