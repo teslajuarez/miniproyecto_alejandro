@@ -30,7 +30,7 @@ public function insertar(){
   $data =[
        "nombre" => $_POST['nombre'],
         "apellido_paterno" => $_POST['apaterno'],
-	 "apellido_materno" => $_POST['materno'],
+	 "apellido_materno" => $_POST['amaterno'],
 ];
       $respuesta = $gModel->insertar($data);
       
@@ -49,7 +49,7 @@ public function insertar(){
       $data = [
              "nombre" => $_POST['nombre'],
         "apellido_paterno" => $_POST['apaterno'],
-	 "apellido_materno" => $_POST['materno'],
+	"apellido_materno" => $_POST['amaterno'],
 ];
 
     $id = ["id"=> $_POST['id']];
